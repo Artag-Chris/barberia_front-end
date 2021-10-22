@@ -1,3 +1,5 @@
+https://amazing-mahavira-981b72.netlify.app/     ya esta su deploy 
+
 sitio creado con React y axios registra, borra, busca y actualiza  clientes, citas, y barberos hace llamadas a la api que también esta en Artag-Chris/repositorios  
 por cuestión de facilitar el acceso a administrador y ver sus opciones se creo una opción de administrador en /registro donde al solo dar click se entrar a una ventana donde se podrán consultar los datos 
 de clientes barberos y las citas todo traído desde la api.
