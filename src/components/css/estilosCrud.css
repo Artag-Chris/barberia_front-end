@@ -1,0 +1,106 @@
+h1,h2{
+    color: #F3E3D4;
+    font-weight: bolder;
+}
+
+.mi-estilo-crud{
+    /* background-color: #ffffff; */
+    background-image: url(../img/barber2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-clip: border-box;
+    /* flex box */
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.mi-bg{
+    background-color: black;
+    /* background-image: linear-gradient(#D9AB91,#F3E3D4, #401F18 ); */
+    background-image: linear-gradient(#3E444A,#FFFFFF, #3E444A );
+}
+
+.seccion-botones{
+    
+    border: solid;
+    height: 25vh;
+}
+.mi-botonera{
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 25vh;
+      margin: 0 auto;
+      width: 70%;
+}
+
+.mi-boton{
+    background-color:  #F3E3D4;
+    color: brown;
+    font-weight: 800;
+    flex: 1 1 25%;
+    padding: 2rem;
+    margin: 1rem;
+}
+.mi-boton:hover{
+    background-color: #D9AB91;
+    cursor: pointer;
+    transition: all .5s;
+    
+}
+
+
+.mi-color-texto-table{
+    color: aliceblue;
+}
+
+.mi-footer{
+
+    height: auto;
+
+}
+
+.mi-img{
+    width: 40%;
+}
+
+.mi-redes{
+    font-size: 1.7rem;
+}
+
+
+/* media query */
+@media (min-width:1200px) {
+    
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+    
+
+}
+
+@media (min-width: 768px) and (max-width:991px){
+    
+
+}
+
+@media(max-width:767px){
+    
+    .mi-botonera{
+        flex-wrap: wrap;
+
+    }
+}
+
+@media(max-width:527px){
+    .seccion-botones{
+        height: 60vh;
+    }
+    
+}
+
+
+

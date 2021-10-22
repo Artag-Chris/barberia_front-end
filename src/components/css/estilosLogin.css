@@ -1,0 +1,85 @@
+
+   .mi-bg-img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+     height: 100vh;
+     filter: brightness(0.5);
+     
+    }
+
+    .mi-estilo-contenedor-loguin{
+      height: 100vh;
+      
+    }
+    .loguin{
+      position: relative;
+      border-radius: .8rem;
+      background-color: #ffece1;
+      
+    }
+    .mi-color-title{
+      color: #401F18;
+    }
+
+    .mi-color-icon-user{
+      color: #645536;
+    }
+    .mi-input-sesion{
+     background-color: #401f188c;
+     font-size: 16px;
+     width: 100%;
+     padding: .5rem;
+     border:none;
+     border-radius: 2.5px;
+     margin: 1rem 0 1rem 0;
+   }
+
+   .mi-estilo-button-sesion{
+     background-color: #401F18;
+      width: 100%;
+      font-size: 14px;
+      font-weight: 700;
+      margin: 1rem 0 1.5rem 0;
+      
+   }
+
+   
+
+   .mi-estilo-p-a {
+    font-size: 15px;
+  }
+
+   .mi-estilo-p-a a{
+     text-decoration: none;
+     color: rgb(255, 166, 0);
+   }
+   
+
+   .mi-estilo-redes-loguin{
+     color:white;
+     font-size: 14px;
+      text-decoration: none !important;
+      padding: .5rem;
+      background-color: #3D548E;
+      display: inline-block;
+      border-radius: 1.5px;
+      width: 100%;
+      margin: 1rem 0  .3rem 0;
+   }
+
+   .mi-estilo-redes-loguin:hover{
+     color: aliceblue !important;
+   }
+
+   .mi-estilo-redes-loguin:nth-child(2){
+     background-color: #E34133;
+
+   }
+   
+   
+   
